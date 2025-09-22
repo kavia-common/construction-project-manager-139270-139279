@@ -103,7 +103,7 @@
 #comp-14-77 .title-14-24 { left: 35px; top: 431px; width: 148px; height: 46px; }
 #comp-14-77 .desc-14-27 { left: 34px; top: 477px; width: 298px; height: 104px; }
 #comp-14-77 .price-14-30 { left: 34px; top: 582px; width: 132px; height: 83px; }
-#comp-14-77 .cta-14-33 { left: 34px; top: 652px; width: 286px; height: 89px; }
+#comp-14-77 .cta-14-33 { left: 34px; top: 652px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* Choose options Discount tall narrow ad (14:78) */
 #comp-14-78 {
@@ -121,7 +121,7 @@
 #comp-14-78 .title-14-25 { left: 34px; top: 432px; width: 148px; height: 46px; }
 #comp-14-78 .desc-14-28 { left: 22px; top: 477px; width: 298px; height: 52px; }
 #comp-14-78 .price-14-31 { left: 34px; top: 580px; width: 132px; height: 83px; }
-#comp-14-78 .cta-14-35 { left: 34px; top: 652px; width: 286px; height: 89px; }
+#comp-14-78 .cta-14-35 { left: 34px; top: 652px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* Sold out Discount tall narrow ad (14:79) */
 #comp-14-79 {
@@ -139,7 +139,7 @@
 #comp-14-79 .title-14-26 { left: 34px; top: 429px; width: 148px; height: 46px; }
 #comp-14-79 .desc-14-29 { left: 34px; top: 477px; width: 298px; height: 104px; }
 #comp-14-79 .price-14-32 { left: 32px; top: 580px; width: 132px; height: 83px; }
-#comp-14-79 .cta-14-37 { left: 34px; top: 652px; width: 286px; height: 89px; }
+#comp-14-79 .cta-14-37 { left: 34px; top: 652px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* ---------- On sale now tall narrow cluster at y≈-312 (14:74, 14:75, 14:76) ---------- */
 
@@ -159,7 +159,7 @@
 #comp-14-74 .title-13-31 { left: 35px; top: 119px; width: 148px; height: 46px; }
 #comp-14-74 .desc-13-37 { left: 34px; top: 165px; width: 298px; height: 104px; }
 #comp-14-74 .price-13-43 { left: 34px; top: 270px; width: 132px; height: 83px; }
-#comp-14-74 .cta-13-50 { left: 34px; top: 340px; width: 286px; height: 89px; }
+#comp-14-74 .cta-13-50 { left: 34px; top: 340px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* Choose options On sale now tall narrow (14:75) */
 #comp-14-75 {
@@ -177,7 +177,7 @@
 #comp-14-75 .title-13-33 { left: 34px; top: 120px; width: 148px; height: 46px; }
 #comp-14-75 .desc-13-39 { left: 22px; top: 165px; width: 298px; height: 52px; }
 #comp-14-75 .price-13-45 { left: 34px; top: 268px; width: 132px; height: 83px; }
-#comp-14-75 .cta-13-54 { left: 34px; top: 340px; width: 286px; height: 89px; }
+#comp-14-75 .cta-13-54 { left: 34px; top: 340px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* Sold Out On sale now tall narrow (14:76) */
 #comp-14-76 {
@@ -195,7 +195,7 @@
 #comp-14-76 .title-13-35 { left: 34px; top: 117px; width: 148px; height: 46px; }
 #comp-14-76 .desc-13-41 { left: 34px; top: 165px; width: 298px; height: 104px; }
 #comp-14-76 .price-13-47 { left: 32px; top: 268px; width: 132px; height: 83px; }
-#comp-14-76 .cta-13-58 { left: 34px; top: 340px; width: 286px; height: 89px; }
+#comp-14-76 .cta-13-58 { left: 34px; top: 340px; width: 286px; height: 89px; border-radius: var(--radius-5); }
 
 /* Notes:
 - Clip-paths approximate Figma star/polygon shapes.
