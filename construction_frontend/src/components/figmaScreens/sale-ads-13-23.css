@@ -1,0 +1,202 @@
+/* Screen: Sale ads (id 13:23) */
+
+#root-frame {
+  position: relative;
+  width: 1523px;
+  height: 2278px;
+  background-color: var(--color-dfdfdf); /* style_0 */
+}
+
+/* Base component helpers */
+.component { position: absolute; }
+.component .abs { position: absolute; }
+.frame-center { display: flex; align-items: center; justify-content: center; }
+.bg-image { background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+/* Typography classes mapped from design system (typo_22..29 already in common.css)
+   Reusing .typo-22/23/24/25 for product details; .typo-26/27/28/29 for badges/banners */
+.typo-26 { font-family: var(--font-khula); font-size: 40px; font-weight: 600; line-height: 60px; letter-spacing: 0.4px; color: var(--color-ffffff); text-align: center; }
+.typo-27 { font-family: var(--font-khula); font-size: 28px; font-weight: 600; line-height: 44.9585px; letter-spacing: 0.28px; color: var(--color-ffffff); text-align: center; }
+.typo-28 { font-family: var(--font-khula); font-size: 18px; font-weight: 600; line-height: 28.9019px; letter-spacing: 0.18px; color: var(--color-ffffff); text-align: center; }
+.typo-29 { font-family: var(--font-khula); font-size: 22px; font-weight: 600; line-height: 35.3246px; letter-spacing: 0.22px; color: var(--color-ffffff); text-align: center; }
+
+/* ---------- Top badges and ribbons ---------- */
+
+/* Black discount (14:61) */
+#comp-14-61 {
+  left: 1215px;
+  top: 592px;
+  width: 199.8735px;
+  height: 193.1247px;
+}
+#comp-14-61 .star {
+  left: 0px; top: 0px; width: 199.8735px; height: 193.1247px; background-color: var(--color-000000);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); /* star proxy */
+}
+#comp-14-61 .text-14-12 { left: 61.5503px; top: 70px; width: 76.7501px; height: 29.1898px; }
+#comp-14-61 .text-14-13 { left: 71px; top: 102px; width: 58px; height: 45px; }
+
+/* Orange discount (14:60) */
+#comp-14-60 {
+  left: 878px;
+  top: 592px;
+  width: 199.8735px;
+  height: 193.1247px;
+}
+#comp-14-60 .star {
+  left: 0px; top: 0px; width: 199.8735px; height: 193.1247px; background-color: var(--color-f3752b);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+#comp-14-60 .text-14-7 { left: 61.5503px; top: 70px; width: 76.7501px; height: 29.1898px; }
+#comp-14-60 .text-14-8 { left: 71px; top: 102px; width: 58px; height: 45px; }
+
+/* Small great deals here (14:59) */
+#comp-14-59 {
+  left: 591px;
+  top: 647px;
+  width: 150.0000px;
+  height: 82.2895px;
+}
+#comp-14-59 .group-13-92 { left: 0; top: 0; width: 150px; height: 82.2895px; }
+#comp-14-59 .rect-13-89 {
+  left: 12.1169px; top: 0px; width: 125.7751px; height: 44px;
+  background-color: var(--color-f3752b); border-radius: var(--radius-1);
+}
+#comp-14-59 .poly-13-90 {
+  left: 0px; top: 29px; width: 150.0000px; height: 53.2894px;
+  background-color: var(--color-f3752b); border-radius: var(--radius-1);
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+}
+#comp-14-59 .label-13-93 { left: 16px; top: 5px; width: 119px; height: 58px; }
+
+/* Large Great deals here (14:58) */
+#comp-14-58 {
+  left: 235px;
+  top: 633px;
+  width: 219px;
+  height: 110px;
+}
+#comp-14-58 .frame-13-83 {
+  left: 15.5420px; top: 0px; width: 188.6226px; height: 65.99998px; background-color: var(--color-f3752b);
+}
+#comp-14-58 .label-13-84 { width: 157px; height: 55px; white-space: pre-line; }
+#comp-14-58 .poly-13-85 {
+  left: 0px; top: 49.5000px; width: 219.0000px; height: 60.5000px; background-color: var(--color-f3752b);
+  clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%);
+}
+
+/* ---------- Discount tall narrow ads cluster at y=939 (14:77, 14:78, 14:79) ---------- */
+
+/* Add to cart Discount tall narrow ad (14:77) */
+#comp-14-77 {
+  left: 184px;
+  top: 939px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-77 .rect-14-21 { left: 0; top: 0; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#inst-14-62 { left: 16px; top: 22px; width: 199.8735px; height: 193.1247px; }
+#inst-14-62 .star { left: 0; top: 0; width: 199.8735px; height: 193.1247px; background-color: var(--color-f3752b); clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+#inst-14-62 .pct { left: 61.5503px; top: 70px; width: 76.7501px; height: 29.1898px; }
+#inst-14-62 .off { left: 71px; top: 102px; width: 58px; height: 45px; }
+#comp-14-77 .img-14-39 { left: 32px; top: 107px; width: 286px; height: 320px; }
+#comp-14-77 .title-14-24 { left: 35px; top: 431px; width: 148px; height: 46px; }
+#comp-14-77 .desc-14-27 { left: 34px; top: 477px; width: 298px; height: 104px; }
+#comp-14-77 .price-14-30 { left: 34px; top: 582px; width: 132px; height: 83px; }
+#comp-14-77 .cta-14-33 { left: 34px; top: 652px; width: 286px; height: 89px; }
+
+/* Choose options Discount tall narrow ad (14:78) */
+#comp-14-78 {
+  left: 597px;
+  top: 939px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-78 .rect-14-22 { left: 0; top: 0; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#inst-14-66 { left: 22px; top: 27px; width: 199.8735px; height: 193.1247px; }
+#inst-14-66 .star { left: 0; top: 0; width: 199.8735px; height: 193.1247px; background-color: var(--color-f3752b); clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+#inst-14-66 .pct { left: 61.5503px; top: 70px; width: 76.7501px; height: 29.1898px; }
+#inst-14-66 .off { left: 71px; top: 102px; width: 58px; height: 45px; }
+#comp-14-78 .img-14-40 { left: 34px; top: 107px; width: 286px; height: 320px; }
+#comp-14-78 .title-14-25 { left: 34px; top: 432px; width: 148px; height: 46px; }
+#comp-14-78 .desc-14-28 { left: 22px; top: 477px; width: 298px; height: 52px; }
+#comp-14-78 .price-14-31 { left: 34px; top: 580px; width: 132px; height: 83px; }
+#comp-14-78 .cta-14-35 { left: 34px; top: 652px; width: 286px; height: 89px; }
+
+/* Sold out Discount tall narrow ad (14:79) */
+#comp-14-79 {
+  left: 1012px;
+  top: 939px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-79 .rect-14-23 { left: 0; top: 0; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#inst-14-70 { left: 34px; top: 22px; width: 199.8735px; height: 193.1247px; }
+#inst-14-70 .star { left: 0; top: 0; width: 199.8735px; height: 193.1247px; background-color: var(--color-f3752b); clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+#inst-14-70 .pct { left: 61.5503px; top: 70px; width: 76.7501px; height: 29.1898px; }
+#inst-14-70 .off { left: 71px; top: 102px; width: 58px; height: 45px; }
+#comp-14-79 .img-14-41 { left: 34px; top: 107px; width: 286px; height: 320px; }
+#comp-14-79 .title-14-26 { left: 34px; top: 429px; width: 148px; height: 46px; }
+#comp-14-79 .desc-14-29 { left: 34px; top: 477px; width: 298px; height: 104px; }
+#comp-14-79 .price-14-32 { left: 32px; top: 580px; width: 132px; height: 83px; }
+#comp-14-79 .cta-14-37 { left: 34px; top: 652px; width: 286px; height: 89px; }
+
+/* ---------- On sale now tall narrow cluster at y≈-312 (14:74, 14:75, 14:76) ---------- */
+
+/* Add to cart On sale now tall narrow (14:74) */
+#comp-14-74 {
+  left: 190px;
+  top: -312px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-74 .rect-13-25 { left: 0; top: 0; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#comp-14-74 .img-13-61 { left: 32px; top: 107px; width: 286px; height: 320px; }
+#comp-14-74 .banner-group-13-72 { left: 9px; top: 0px; width: 219px; height: 107px; }
+#comp-14-74 .banner-13-68 { left: 24.5420px; top: 0px; width: 188.6226px; height: 64.19998px; background-color: var(--color-f3752b); }
+#comp-14-74 .banner-label-13-67 { width: 247px; height: 52px; }
+#comp-14-74 .banner-poly-13-70 { left: -0.0000px; top: 48.1500px; width: 219.0000px; height: 58.8500px; background-color: var(--color-f3752b); clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%); }
+#comp-14-74 .title-13-31 { left: 35px; top: 119px; width: 148px; height: 46px; }
+#comp-14-74 .desc-13-37 { left: 34px; top: 165px; width: 298px; height: 104px; }
+#comp-14-74 .price-13-43 { left: 34px; top: 270px; width: 132px; height: 83px; }
+#comp-14-74 .cta-13-50 { left: 34px; top: 340px; width: 286px; height: 89px; }
+
+/* Choose options On sale now tall narrow (14:75) */
+#comp-14-75 {
+  left: 603px;
+  top: -314px;
+  width: 350px;
+  height: 788px;
+}
+#comp-14-75 .rect-13-27 { left: 0; top: 2px; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#comp-14-75 .img-13-63 { left: 34px; top: 107px; width: 286px; height: 320px; }
+#comp-14-75 .banner-group-13-74 { left: 9px; top: 0px; width: 219px; height: 107px; }
+#comp-14-75 .banner-13-75 { left: 24.5420px; top: 0px; width: 188.6226px; height: 64.19998px; background-color: var(--color-f3752b); }
+#comp-14-75 .banner-label-13-76 { width: 247px; height: 52px; }
+#comp-14-75 .banner-poly-13-77 { left: -0.0000px; top: 48.1500px; width: 219.0000px; height: 58.8500px; background-color: var(--color-f3752b); clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%); }
+#comp-14-75 .title-13-33 { left: 34px; top: 120px; width: 148px; height: 46px; }
+#comp-14-75 .desc-13-39 { left: 22px; top: 165px; width: 298px; height: 52px; }
+#comp-14-75 .price-13-45 { left: 34px; top: 268px; width: 132px; height: 83px; }
+#comp-14-75 .cta-13-54 { left: 34px; top: 340px; width: 286px; height: 89px; }
+
+/* Sold Out On sale now tall narrow (14:76) */
+#comp-14-76 {
+  left: 1018px;
+  top: -312px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-76 .rect-13-29 { left: 0; top: 0; width: 350px; height: 786px; background-color: var(--color-ffffff); }
+#comp-14-76 .img-13-65 { left: 34px; top: 107px; width: 286px; height: 320px; }
+#comp-14-76 .banner-group-13-78 { left: 7px; top: 0px; width: 219px; height: 107px; }
+#comp-14-76 .banner-13-79 { left: 22.5420px; top: 0px; width: 188.6226px; height: 64.19998px; background-color: var(--color-f3752b); }
+#comp-14-76 .banner-label-13-80 { width: 247px; height: 52px; }
+#comp-14-76 .banner-poly-13-81 { left: -0.0000px; top: 48.1500px; width: 219.0000px; height: 58.8500px; background-color: var(--color-f3752b); clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%); }
+#comp-14-76 .title-13-35 { left: 34px; top: 117px; width: 148px; height: 46px; }
+#comp-14-76 .desc-13-41 { left: 34px; top: 165px; width: 298px; height: 104px; }
+#comp-14-76 .price-13-47 { left: 32px; top: 268px; width: 132px; height: 83px; }
+#comp-14-76 .cta-13-58 { left: 34px; top: 340px; width: 286px; height: 89px; }
+
+/* Notes:
+- Clip-paths approximate Figma star/polygon shapes.
+*/

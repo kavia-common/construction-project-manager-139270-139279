@@ -1,0 +1,237 @@
+:root {
+  /* Color tokens */
+  --color-dfdfdf: #dfdfdf;
+  --color-ffffff: #ffffff;
+  --color-f3752b: #f3752b;
+  --color-000000: #000000;
+  --color-9c9a9a: #9c9a9a;
+  --color-d9d9d9: #d9d9d9;
+  --color-707070: #707070;
+
+  /* Typography tokens (font families and base sizes) */
+  --font-khula: "Khula", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-istok-web: "Istok Web", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-coda-caption: "Coda Caption", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+  /* Shadows */
+  --shadow-0: 0px 4px 4px rgba(0, 0, 0, 1);
+  --shadow-1: 2px 4px 4px rgba(0, 0, 0, 1);
+
+  /* Border radii */
+  --radius-1: 1px;
+  --radius-5: 5px;
+
+  /* Spacing scale (subset as CSS vars for potential use) */
+  --space-26: 26px;
+  --space-27: 27px;
+  --space-29: 29px;
+  --space-34: 34px;
+  --space-35: 35px;
+  --space-36: 36px;
+  --space-40: 40px;
+  --space-44: 44px;
+  --space-45: 45px;
+  --space-46: 46px;
+  --space-48: 48px;
+  --space-52: 52px;
+  --space-55: 55px;
+  --space-56: 56px;
+  --space-58: 58px;
+  --space-60: 60px;
+  --space-63: 63px;
+  --space-65: 65px;
+  --space-68: 68px;
+  --space-71: 71px;
+  --space-73: 73px;
+  --space-79: 79px;
+  --space-80: 80px;
+  --space-82: 82px;
+  --space-83: 83px;
+  --space-84: 84px;
+  --space-87: 87px;
+  --space-89: 89px;
+  --space-91: 91px;
+  --space-93: 93px;
+  --space-95: 95px;
+  --space-98: 98px;
+  --space-100: 100px;
+  --space-103: 103px;
+  --space-104: 104px;
+  --space-107: 107px;
+  --space-110: 110px;
+  --space-112: 112px;
+  --space-119: 119px;
+  --space-130: 130px;
+  --space-132: 132px;
+  --space-136: 136px;
+  --space-138: 138px;
+  --space-139: 139px;
+  --space-148: 148px;
+  --space-149: 149px;
+  --space-150: 150px;
+  --space-157: 157px;
+  --space-160: 160px;
+  --space-162: 162px;
+  --space-173: 173px;
+  --space-188: 188px;
+  --space-196: 196px;
+  --space-197: 197px;
+  --space-201: 201px;
+  --space-202: 202px;
+  --space-212: 212px;
+  --space-219: 219px;
+  --space-223: 223px;
+  --space-224: 224px;
+  --space-228: 228px;
+  --space-240: 240px;
+  --space-244: 244px;
+  --space-247: 247px;
+  --space-250: 250px;
+  --space-251: 251px;
+  --space-254: 254px;
+  --space-259: 259px;
+  --space-268: 268px;
+  --space-269: 269px;
+  --space-286: 286px;
+  --space-298: 298px;
+  --space-308: 308px;
+  --space-310: 310px;
+  --space-312: 312px;
+  --space-318: 318px;
+  --space-320: 320px;
+  --space-330: 330px;
+  --space-336: 336px;
+  --space-337: 337px;
+  --space-350: 350px;
+  --space-452: 452px;
+  --space-453: 453px;
+  --space-471: 471px;
+  --space-485: 485px;
+  --space-572: 572px;
+  --space-596: 596px;
+  --space-598: 598px;
+  --space-600: 600px;
+  --space-638: 638px;
+  --space-640: 640px;
+  --space-680: 680px;
+  --space-786: 786px;
+  --space-788: 788px;
+  --space-917: 917px;
+  --space-995: 995px;
+  --space-1107: 1107px;
+  --space-1282: 1282px;
+  --space-1330: 1330px;
+  --space-1523: 1523px;
+}
+
+/* Style tokens to CSS utility classes */
+.ds-bg-dfdfdf { background-color: var(--color-dfdfdf); }
+.ds-bg-ffffff { background-color: var(--color-ffffff); }
+.ds-bg-f3752b { background-color: var(--color-f3752b); }
+.ds-bg-000000 { background-color: var(--color-000000); }
+.ds-bg-9c9a9a { background-color: var(--color-9c9a9a); }
+.ds-bg-d9d9d9 { background-color: var(--color-d9d9d9); }
+.ds-bg-707070 { background-color: var(--color-707070); }
+
+.ds-shadow-0 { box-shadow: var(--shadow-0); }
+.ds-shadow-1 { box-shadow: var(--shadow-1); }
+
+.ds-radius-1 { border-radius: var(--radius-1); }
+.ds-radius-5 { border-radius: var(--radius-5); }
+
+/* Reset and base */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-dfdfdf);
+  color: var(--color-000000);
+  font-family: var(--font-khula);
+}
+img { display: block; max-width: 100%; }
+
+/* Absolute canvas to preserve Figma coordinates */
+.canvas {
+  position: relative;
+  width: 1523px;
+  height: 2278px;
+  margin: 0 auto;
+  background: var(--color-dfdfdf);
+  overflow: hidden;
+}
+
+/* Responsive scale to fit viewport while keeping pixel-perfect proportions */
+.canvas-wrapper {
+  width: 100%;
+  overflow: auto;
+}
+.canvas-scaler {
+  transform-origin: top left;
+}
+@media (max-width: 1523px) {
+  .canvas-wrapper {
+    overflow-x: auto;
+  }
+}
+
+/* Typography utilities derived from tokens used on this screen */
+.typo-22 {
+  font-family: var(--font-khula);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40.1416px;
+  letter-spacing: 0.5px;
+  color: var(--color-000000);
+  text-align: left;
+}
+.typo-23 {
+  font-family: var(--font-khula);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.3246px;
+  letter-spacing: 0px;
+  color: var(--color-000000);
+  text-align: left;
+}
+.typo-24 {
+  font-family: var(--font-khula);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.4px;
+  color: var(--color-f3752b);
+  text-align: left;
+}
+.typo-25 {
+  font-family: var(--font-khula);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48.1699px;
+  letter-spacing: 0.3px;
+  color: var(--color-ffffff);
+  text-align: center;
+}
+
+/* Button-like frame content centering */
+.frame-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Utility for positioned elements */
+.abs { position: absolute; }
+
+/* Specific style mappings from style refs (used in this screen) */
+.style-0 { background-color: var(--color-dfdfdf); }
+.style-1 { background-color: var(--color-ffffff); }
+.style-2 { background-color: var(--color-f3752b); }
+.style-3 { background-color: var(--color-000000); }
+.style-4 { background-color: var(--color-9c9a9a); }
+
+/* For image rectangles with cover fit */
+.bg-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

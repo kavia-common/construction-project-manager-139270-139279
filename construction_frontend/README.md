@@ -27,6 +27,19 @@ Launches the test runner in interactive watch mode.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+## Figma Screens Integration
+
+Three Figma-extracted screens are integrated as React components under `src/components/figmaScreens/`:
+- `NarrowAds` — `/figma/narrow-ads`
+- `SaleAds` — `/figma/sale-ads`
+- `Banners` — `/figma/banners`
+
+They share:
+- Scaling hook (`src/hooks/useCanvasScaler.js`) to fit the fixed-width canvas
+- Design tokens (`src/styles/figma/common.css`)
+
+Images are referenced via `/assets/...`. Ensure images are present in `public/assets/`.
+
 ## Customization
 
 ### Colors

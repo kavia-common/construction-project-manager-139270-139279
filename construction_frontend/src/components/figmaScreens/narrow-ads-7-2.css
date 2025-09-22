@@ -1,0 +1,328 @@
+/* Screen: Narrow ads (id 7:2) canvas specific styles */
+
+#root-frame {
+  position: relative;
+  width: 1523px;
+  height: 2278px;
+  background-color: var(--color-dfdfdf); /* style_0 */
+}
+
+/* Shared base for components and their children */
+.component { position: absolute; }
+.component .abs { position: absolute; }
+.component .button-label { display: flex; align-items: center; justify-content: center; text-align: center; }
+.component .image { background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+/* Buttons radii according to styles */
+.button-radius-1 { border-radius: var(--radius-1); }
+.button-radius-5 { border-radius: var(--radius-5); }
+
+/* White card shadow if style_12 is applied in the design (keeping neutral by default) */
+.card-shadow-0 { box-shadow: var(--shadow-0); }
+.card-shadow-1 { box-shadow: var(--shadow-1); }
+
+/* Typography application for text nodes (no CSS Modules compose) */
+.text-typo-23 { font-family: var(--font-khula); font-size: 22px; font-weight: 400; line-height: 35.3246px; letter-spacing: 0px; color: var(--color-000000); text-align: left; }
+.text-typo-22 { font-family: var(--font-khula); font-size: 25px; font-weight: 700; line-height: 40.1416px; letter-spacing: 0.5px; color: var(--color-000000); text-align: left; }
+.text-typo-24 { font-family: var(--font-khula); font-size: 40px; font-weight: 600; line-height: 60px; letter-spacing: 0.4px; color: var(--color-f3752b); text-align: left; }
+.text-typo-25 { font-family: var(--font-khula); font-size: 30px; font-weight: 600; line-height: 48.1699px; letter-spacing: 0.3px; color: var(--color-ffffff); text-align: center; }
+
+/* Component: Add to cart small narrow (14:15) at x=1088, y=-297, size 350x600 */
+#comp-14-15 {
+  left: 1088px;
+  top: -297px;
+  width: 350px;
+  height: 600px;
+}
+#comp-14-15 .rect-8-3 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 600px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-15 .text-8-4 {
+  left: 34px;
+  top: 290px;
+  width: 148px;
+  height: 35px;
+}
+#comp-14-15 .text-8-5 {
+  left: 34px;
+  top: 328px;
+  width: 298px;
+  height: 80px;
+}
+#comp-14-15 .price-8-6 {
+  left: 34px;
+  top: 434px;
+  width: 132px;
+  height: 27px;
+}
+#comp-14-15 .frame-8-10 {
+  left: 34px;
+  top: 498px;
+  width: 286px;
+  height: 68px;
+  background-color: var(--color-f3752b); /* style_2 */
+}
+#comp-14-15 .frame-8-10 .label-8-8 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-15 .img-8-11 {
+  left: 34px;
+  top: 33px;
+  width: 286px;
+  height: 244px;
+}
+
+/* Component: Choose options small narrow (14:16) at x=1501, y=-297, size 350x600 */
+#comp-14-16 {
+  left: 1501px;
+  top: -297px;
+  width: 350px;
+  height: 600px;
+}
+#comp-14-16 .rect-8-12 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 600px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-16 .text-8-13 {
+  left: 34px;
+  top: 290px;
+  width: 148px;
+  height: 35px;
+}
+#comp-14-16 .text-8-14 {
+  left: 34px;
+  top: 328px;
+  width: 298px;
+  height: 40px;
+}
+#comp-14-16 .price-8-15 {
+  left: 34px;
+  top: 434px;
+  width: 132px;
+  height: 27px;
+}
+#comp-14-16 .frame-8-16 {
+  left: 34px;
+  top: 498px;
+  width: 286px;
+  height: 68px;
+  background-color: var(--color-f3752b); /* style_2 */
+}
+#comp-14-16 .frame-8-16 .label-8-17 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-16 .img-8-18 {
+  left: 34px;
+  top: 33px;
+  width: 286px;
+  height: 244px;
+}
+
+/* Component: Sold out small narrow (14:17) at x=1914, y=-297, size 350x600 */
+#comp-14-17 {
+  left: 1914px;
+  top: -297px;
+  width: 350px;
+  height: 600px;
+}
+#comp-14-17 .rect-8-19 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 600px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-17 .text-8-20 {
+  left: 34px;
+  top: 290px;
+  width: 148px;
+  height: 35px;
+}
+#comp-14-17 .text-8-21 {
+  left: 34px;
+  top: 328px;
+  width: 298px;
+  height: 80px;
+}
+#comp-14-17 .price-8-22 {
+  left: 34px;
+  top: 434px;
+  width: 132px;
+  height: 27px;
+}
+#comp-14-17 .frame-8-23 {
+  left: 34px;
+  top: 498px;
+  width: 286px;
+  height: 68px;
+  background-color: var(--color-9c9a9a); /* style_4 */
+}
+#comp-14-17 .frame-8-23 .label-8-24 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-17 .img-8-25 {
+  left: 34px;
+  top: 33px;
+  width: 286px;
+  height: 244px;
+}
+
+/* Component: Add to Cart tall narrow (14:18) at x=1088, y=393, size 350x786 */
+#comp-14-18 {
+  left: 1088px;
+  top: 393px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-18 .rect-13-2 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 786px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-18 .text-13-3 {
+  left: 35px;
+  top: 431px;
+  width: 148px;
+  height: 46px;
+}
+#comp-14-18 .text-13-4 {
+  left: 34px;
+  top: 477px;
+  width: 298px;
+  height: 104px;
+}
+#comp-14-18 .price-13-5 {
+  left: 34px;
+  top: 582px;
+  width: 132px;
+  height: 83px;
+}
+#comp-14-18 .frame-13-6 {
+  left: 34px;
+  top: 652px;
+  width: 286px;
+  height: 89px;
+  background-color: var(--color-f3752b); /* style_2 */
+}
+#comp-14-18 .frame-13-6 .label-13-7 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-18 .img-13-8 {
+  left: 32px;
+  top: 63px;
+  width: 286px;
+  height: 320px;
+}
+
+/* Component: Choose Options tall narrow (14:19) at x=1501, y=393, size 350x786 */
+#comp-14-19 {
+  left: 1501px;
+  top: 393px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-19 .rect-13-9 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 786px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-19 .text-13-10 {
+  left: 34px;
+  top: 432px;
+  width: 148px;
+  height: 46px;
+}
+#comp-14-19 .text-13-11 {
+  left: 22px;
+  top: 477px;
+  width: 298px;
+  height: 52px;
+}
+#comp-14-19 .price-13-12 {
+  left: 34px;
+  top: 580px;
+  width: 132px;
+  height: 83px;
+}
+#comp-14-19 .frame-13-13 {
+  left: 34px;
+  top: 652px;
+  width: 286px;
+  height: 89px;
+  background-color: var(--color-f3752b); /* style_2 */
+}
+#comp-14-19 .frame-13-13 .label-13-14 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-19 .img-13-15 {
+  left: 34px;
+  top: 73px;
+  width: 286px;
+  height: 320px;
+}
+
+/* Component: Sold Out tall narrow (14:20) at x=1916, y=393, size 350x786 */
+#comp-14-20 {
+  left: 1916px;
+  top: 393px;
+  width: 350px;
+  height: 786px;
+}
+#comp-14-20 .rect-13-16 {
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 786px;
+  background-color: var(--color-ffffff); /* style_1 */
+}
+#comp-14-20 .text-13-17 {
+  left: 34px;
+  top: 429px;
+  width: 148px;
+  height: 46px;
+}
+#comp-14-20 .text-13-18 {
+  left: 34px;
+  top: 477px;
+  width: 298px;
+  height: 104px;
+}
+#comp-14-20 .price-13-19 {
+  left: 32px;
+  top: 580px;
+  width: 132px;
+  height: 83px;
+}
+#comp-14-20 .frame-13-20 {
+  left: 34px;
+  top: 652px;
+  width: 286px;
+  height: 89px;
+  background-color: var(--color-9c9a9a); /* style_4 */
+}
+#comp-14-20 .frame-13-20 .label-13-21 {
+  width: 251px;
+  height: 48px;
+}
+#comp-14-20 .img-13-22 {
+  left: 44px;
+  top: 73px;
+  width: 286px;
+  height: 320px;
+}
